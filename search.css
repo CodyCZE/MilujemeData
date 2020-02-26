@@ -62,6 +62,7 @@
   box-shadow: 0px 1px 26px -3px #777777;
   }
   .lightbox .info {
+      text-align: center;
       margin:0;
       padding:0 0 10px 0px;
       border-bottom:1px #ccc solid;
@@ -92,6 +93,10 @@
           /** Show lightbox when it is target */
           display: block;
           outline: none;
+      }
+      .lightbox_img{
+        width:50%;
+        height: auto;
       }
       
 
