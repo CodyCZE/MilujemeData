@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title></title>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name='keywords' content=''>
+    <meta name='author' content=''>
+    <meta name='robots' content='all'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <link href='/favicon.png' rel='shortcut icon' type='image/png'>
+    <script type="text/javascript" src="search.js"></script>
+    <link rel="stylesheet" href="search.css" type="text/css">
+    
+    
+  </head>
+  <body>
+    <header id="header">
+      <nav class="links" style="--items: 3;">
+        <a href="index.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="about.html">About</a>     
+        <span class="line"></span>
+      </nav>
+    </header>
+    <!-- Control buttons -->
+    <section>
+<div id="myBtnContainer">
+  <button class="btn_txt btn active first" onclick="filterSelection('all')"> Vše</button>
+  <button class="btn_txt btn" onclick="filterSelection('GoogleAds')"> Google Ads</button>
+  <button class="btn_txt btn" onclick="filterSelection('Sklik')"> Sklik</button>
+  <button class="btn_txt btn" onclick="filterSelection('Collabim')"> Collabim</button>
+  <button class="btn_txt btn" onclick="filterSelection('OptimalizaceVyhledavacu')"> Optimalizace vyhledávačů</button>
+  <button class="btn_txt btn" onclick="filterSelection('Navstevnici')"> Návštěvnost</button>
+  <button class="btn_txt btn" onclick="filterSelection('Obchod')"> Obchod</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <a href="#text"><div class="filterDiv GoogleAds OptimalizaceVyhledavacu Collabim Sklik"><img class="image" src="images/graph1.png" alt=""></div></a>
+  <a href="#text"><div class="filterDiv Obchod"><img class="image" src="images/graph2.png" alt=""></div></a>
+  <a href="#text"><div class="filterDiv Navstevnici"><img class="image" src="images/graph3.png" alt=""></div></a>
+  <a href="#text"><div class="filterDiv Navstevníci"><img  class="image" src="images/graph4.png" alt=""></div></a>
+</div>
+<div class="lightbox" id="text">
+  <div class="box">
+      <a class="close" href="#">X</a>
+      <div class="content">
+        <p class="info">
+          <strong>Popis</strong>lůjwHFŮJKEHKJWHVFEwcvlELCWlhceCGSEACBGJS\EAHGCLHSEACKJHSEGCKJEASWKJCSAEGKJCGSEAJK<strong>ukázka.</strong>
+        </p>
+      </div>
+  </div>
+  
+  
+</section>
+  <footer id="footer">	   
+  </footer>
+  </body>
+  
+</html>
